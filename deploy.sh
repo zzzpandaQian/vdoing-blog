@@ -14,17 +14,17 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:zzzpandaQian/vdoing-blog-deploy.git
+  githubUrl=git@github.com:zzzpandaQian/vblog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://zzzpandaQian:${GITHUB_TOKEN}@github.com/zzzpandaQian/vdoing-blog-deploy.git
+  githubUrl=https://zzzpandaQian:${GITHUB_TOKEN}@github.com/zzzpandaQian/vblog.git
   git config --global user.name "zzzpandaQian"
   git config --global user.email "307097167@qq.com"
 fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+git push -f $githubUrl master:pages # 推送到github gh-pages分支
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名

@@ -52,7 +52,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+    avatar: 'https://s3.bmp.ovh/imgs/2021/09/0419d0906335cc63.gif',
     name: 'zzzpandaQian',
     // slogan: '前端界的小学生',
   },
