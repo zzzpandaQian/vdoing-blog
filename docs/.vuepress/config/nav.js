@@ -7,59 +7,39 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
-        text: '前端文章',
+        text: 'Js',
+        link: '/js/',
         items: [
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-          // { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
+          { text: 'DOM介绍', link: '/pages/6162c3/' },
+          { text: 'ES6特性', link: '/pages/832aba/' },
+          { text: 'Canvas', link: '/pages/3cc84b/' },
         ],
       },
       {
-        text: 'css',
+        text: 'Css',
         link: '/pages/fa408e/',
       },
       {
-        text: 'Vue',
-        link: '/vue/',
+        text: 'Vue3',
+        link: '/vue3/',
         items: [
-          { text: '基础内容', link: '/pages/def58a/',
-          },
-          {
-            text: '组件化', link: '/pages/d199ed/'
-          },
-          {
-            text: "axios网络模块封装", link: '/pages/694454/'
-          },
-          {
-            text: "CLI脚手架", link: '/pages/190e59/'
-          },
-          {
-            text: "Vue-router", link: '/pages/13e7d4/'
-          },
-          {
-            text: "Vuex", link: '/pages/4bea55/'
-          },
-          {
-            text: "webpack相关知识", link: '/pages/0d7a1b/'
-          },
-          {
-            text: "vue进阶", link: '/pages/22713a22713a/'
-          },
-          {
-            text: "Vuex", link: '/pages/4bea55/'
-          },
-          {
-            text: "antv框架", link: '/pages/5df7a3/'
-          },
-          {
-            text: "Uni-app", link: '/pages/fb13a9/'
-          },
-          {
-            text: "常用代码和json文件", link: '/pages/8e80a2/'
-          },
-
-          // { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
+          { text: '项目搭建', link: '/pages/0a8623/' },
         ],
       },
+      {
+        text: 'Ts',
+        link: '/ts/',
+        items: [
+          { text: '泛型', link: '/pages/c06fb2/' },
+        ],
+      },
+      {
+        text: 'Node',
+        link: '/node/',
+        items: [
+          { text: 'fs模块', link: '/pages/1c64c6/' },
+        ],
+      }
     ],
   },
   {
@@ -71,10 +51,12 @@ module.exports = [
   },
   {
     text: '日记',
-    link: '/diary/',
+    link: '/diarydata/',
     items: [
-      { text: '日记', link: '/pages/1663cb/' },
-      { text: '碎片', link: '/pages/c40207/' },
+      { text: '汇总', link: '/pages/4f1b74/' },
+      { text: '碎片', link: '/pages/13896c/' },
+      { text: '个人组件', link: '/pages/8d4e6a/' },
+
       // { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
       // { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
     ],

@@ -40,8 +40,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "maintainers": [{
-    "name": "zzzpandaQian",
-    "email": "307097167@qq.com"
-  }]
+  "maintainers": [
+    {
+      "name": "zzzpandaQian",
+      "email": "307097167@qq.com"
+    }
+  ]
 }

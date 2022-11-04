@@ -79,7 +79,7 @@ module.exports = {
   },
   footer: {
     // 页脚信息
-    createYear: 2020, // 博客创建年份
+    createYear: 2021, // 博客创建年份
     copyrightInfo: "<a href='https://beian.miit.gov.cn'>浙ICP备2021033886号-1</a>"
  // 博客版权信息，支持a标签
   },
